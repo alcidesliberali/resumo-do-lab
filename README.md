@@ -14,7 +14,7 @@ Também foram apresentadas algumas opções existentes no momento da criação d
 
 ---------------------------------------
 
-No último laboratório do múdulo 1 módulo, foram apresentados os tipos de serviço de nuvem, que são:
+No último laboratório do módulo 1, foram apresentados os tipos de serviço de nuvem, que são:
 - infraestrutura como serviço (IaaS)
 - plataforma como serviço (PaaS)
 - software como serviço (SaaS)
