@@ -133,4 +133,21 @@ Ou seja, se tive acesso a Assinatura, terá acesso a tudo que está abaixo dela.
 - Analisa também AWS e GCP.
 - Faz recomendações de segurança; Detectar e bloquear malware; Analisar e identificar ataques potenciais; Controle de acesso just-in-time para portas.
 
+---------------------------------------
+Identidade - Acesso - Segurança
+---------------------------------------
+- No Entra ID, em caso de excluisão de usuário, pode recuperá-lo em até 30 dias.
+- Entra Connect – sincronismo on-premise(local) com azure cloud Informar o domínio próprio da empresa em Custom domain names.
+- Health(Preview) – SLA Access Control IAM – Permissões se dá por Grupo de Recursos ou direto no Recurso. Defender for cloud – Cloud Native, visão geral de segurança, recomendações, multi-cloud, híbrido. DevOps Security
+
+---------------------------------------
+# Gerenciamento e Governança na Azure
+---------------------------------------
+
+---------------------------------------
+Gerenciamento de Custos no Azure
+---------------------------------------
+- Calculadora de custos e preços: Ferramenta para estimar os custos de seus recursos no Azure antes de implementá-los.
+- Gerenciamento de custos e marcas: Utilização de marcas para organizar e identificar recursos, facilitando a análise de custos por categoria ou projeto.
+- TCO (Custo Total de Propriedade): Avaliação completa dos custos, incluindo não apenas os custos diretos de utilização dos recursos, mas também custos indiretos como administração, manutenção e treinamento.
 
