@@ -254,3 +254,39 @@ Pontos-chave:
 - O Azure Arc permite um gerenciamento unificado de recursos em diferentes ambientes, promovendo a multi-cloud.
 - Os modelos ARM são a base para a automação de implantações no Azure.
 - O Azure Bicep oferece uma alternativa mais moderna e intuitiva aos modelos ARM tradicionais.
+
+---------------------------------------
+Ferramentas do Azure para Otimização e Monitoramento
+---------------------------------------
+As ferramentas do Azure oferecem um conjunto completo de recursos para otimizar suas implantações na nuvem, garantir a segurança e o desempenho dos seus aplicativos, além de fornecer insights detalhados sobre o estado dos seus recursos.
+
+1. Assistente do Azure:
+- Análise: Examina seus recursos implantados e identifica áreas de melhoria.
+- Recomendações: Sugere ações para otimizar a confiabilidade, segurança, desempenho e custo das suas implantações.
+- Foco: Aborda aspectos como:
+  - Confiabilidade: Garante a disponibilidade dos seus recursos.
+  - Segurança: Identifica vulnerabilidades e sugere medidas de proteção.
+  - Desempenho: Otimiza o desempenho dos seus aplicativos.
+  - Custo: Ajuda a reduzir os custos da sua nuvem.
+  - Excelência operacional: Melhora a eficiência das operações.
+  - 
+2. Integridade do Serviço do Azure:
+- Visibilidade: Fornece informações sobre o status dos serviços do Azure que você utiliza.
+- Foco: Permite monitorar a disponibilidade dos serviços e regiões que impactam diretamente suas aplicações.
+- Alertas: Notifica sobre possíveis problemas ou degradações nos serviços.
+
+3. Resource Health:
+- Visão personalizada: Oferece uma visão detalhada do estado de saúde dos seus recursos individuais.
+- Integridade: Fornece informações sobre a integridade de cada recurso, como máquinas virtuais, discos, redes, etc.
+- Monitoramento: Permite acompanhar a saúde dos seus recursos ao longo do tempo.
+
+4. Azure Monitor:
+- Coleta de dados: Reúne dados de telemetria de diversos recursos, tanto na nuvem quanto em ambientes locais.
+- Análise: Permite analisar esses dados para identificar padrões, detectar anomalias e tomar decisões.
+- Otimização: Ajuda a maximizar a disponibilidade e o desempenho dos seus aplicativos.
+- Componentes:
+  - Azure Log Analytics: Analisa dados de log para identificar problemas e tendências.
+  - Alertas: Cria alertas personalizados para notificar sobre eventos importantes.
+  - Application Insights: Monitora o desempenho e a utilização de seus aplicativos.
+
+OBS: Advisor – Centro de recomendações e insights.
