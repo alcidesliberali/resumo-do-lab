@@ -66,26 +66,26 @@ Armazenamento no Azure
 ---------------------------------------
 O Azure oferece diversas opções de armazenamento para diferentes necessidades, com diferentes níveis de redundância, tipos de dados e camadas de acesso.
 
-*Redundância:
+Redundância:
 - LRS: 3 cópias no mesmo datacenter (11 noves de durabilidade).
 - ZRS: 3 cópias em datacenters diferentes (12 noves de durabilidade).
 - GRS: Cópia em outra região (16 noves de durabilidade).
 - GZRS: Combina ZRS e GRS (16 noves de durabilidade).
 
-*Tipos de dados:
+Tipos de dados:
 - Blob: Dados não estruturados (texto, binários).
 - Fila: Mensagens com até 64 KB.
 - Arquivos: Compartilhamento de arquivos de rede.
 - Tabelas: Dados estruturados não relacionais.
 
-*Camadas de acesso:
+Camadas de acesso:
 - Frequente: Acesso frequente.
 - Esporádico: Acesso pouco frequente (30 dias).
 - Frio: Acesso raro (90 dias).
 - Arquivo Morto: Acesso raríssimo (180 dias), latência flexível.
 - Pontos de extremidade: URLs específicas para cada tipo de armazenamento.
 
-*Ferramentas:
+Ferramentas:
 - Azure Data Box: Equipamento físico para transferir grandes volumes de dados.
 - AzCopy: Utilitário de linha de comando para copiar e sincronizar dados.
 - Gerenciador de Armazenamento do Azure: Interface gráfica para gerenciar o armazenamento.
@@ -193,40 +193,40 @@ Azure Policy
 - Objetivo: Imposição de padrões e regras para garantir a conformidade dos recursos.
 - Alcance: Aplica-se a assinaturas, grupos de recursos e recursos individuais.
 - Características:
--- Flexibilidade: Permite criar políticas personalizadas para diferentes cenários.
--- Abrangência: Afeta tanto recursos novos quanto existentes.
--- Estados:
---- Não conformes: Recursos que violam as políticas.
---- Remediação: Permite corrigir recursos não conformes.
---- Conformes: Recursos que seguem as políticas.
+  - Flexibilidade: Permite criar políticas personalizadas para diferentes cenários.
+  - Abrangência: Afeta tanto recursos novos quanto existentes.
+  - Estados:
+    - Não conformes: Recursos que violam as políticas.
+    - Remediação: Permite corrigir recursos não conformes.
+    - Conformes: Recursos que seguem as políticas.
 - Exemplos de uso:
--- Definir regiões permitidas para criação de recursos.
--- Exigir tags específicas para recursos.
--- Garantir que os recursos estejam criptografados.
+  - Definir regiões permitidas para criação de recursos.
+  - Exigir tags específicas para recursos.
+  - Garantir que os recursos estejam criptografados.
 
 Bloqueios de Recursos
 - Objetivo: Proteger recursos contra alterações ou exclusões não intencionais.
 - Tipos de bloqueio:
--- CannotDelete: Impede a exclusão do recurso.
--- ReadOnly: Impede qualquer alteração no recurso.
+  - CannotDelete: Impede a exclusão do recurso.
+  - ReadOnly: Impede qualquer alteração no recurso.
 - Alcance: Pode ser aplicado a assinaturas, grupos de recursos e recursos individuais.
 - Considerações:
--- Impacto na mobilidade: Bloqueios em recursos individuais se movem junto com o recurso para outros grupos de recursos.
--- Uso estratégico: Deve ser utilizado com cuidado para evitar bloqueios desnecessários.
+  - Impacto na mobilidade: Bloqueios em recursos individuais se movem junto com o recurso para outros grupos de recursos.
+  - Uso estratégico: Deve ser utilizado com cuidado para evitar bloqueios desnecessários.
 
 Microsoft Purview
 - Objetivo: Oferecer uma visão unificada e completa dos dados da organização.
 - Funcionalidades:
--- Descoberta de dados: Localiza e cataloga dados em diversas fontes.
--- Classificação de dados: Identifica a sensibilidade dos dados.
--- Linhagem de dados: Rastreamento do ciclo de vida dos dados.
--- Governança de dados: Implementa políticas de segurança e privacidade.
+  - Descoberta de dados: Localiza e cataloga dados em diversas fontes.
+  - Classificação de dados: Identifica a sensibilidade dos dados.
+  - Linhagem de dados: Rastreamento do ciclo de vida dos dados.
+  - Governança de dados: Implementa políticas de segurança e privacidade.
 - Benefícios:
--- Visibilidade: Entendimento claro dos dados da organização.
--- Segurança: Proteção de dados sensíveis.
--- Conformidade: Garantia de conformidade com regulamentações.
+  - Visibilidade: Entendimento claro dos dados da organização.
+  - Segurança: Proteção de dados sensíveis.
+  - Conformidade: Garantia de conformidade com regulamentações.
 - Ferramentas complementares:
--- Microsoft Priva: Auxilia na conformidade com a LGPD.
+  - Microsoft Priva: Auxilia na conformidade com a LGPD.
 
 Portal de Confiança do Serviço
 - Objetivo: Fornecer informações sobre as práticas de segurança e privacidade da Microsoft.
