@@ -151,3 +151,37 @@ Gerenciamento de Custos no Azure
 - Gerenciamento de custos e marcas: Utilização de marcas para organizar e identificar recursos, facilitando a análise de custos por categoria ou projeto.
 - TCO (Custo Total de Propriedade): Avaliação completa dos custos, incluindo não apenas os custos diretos de utilização dos recursos, mas também custos indiretos como administração, manutenção e treinamento.
 
+---------------------------------------
+Fatores que Afetam os Custos
+---------------------------------------
+- Tipo de recurso: O tipo de recurso utilizado (máquina virtual, banco de dados, armazenamento, etc.) influencia diretamente no custo.
+- Consumo: A quantidade e a duração do uso dos recursos impactam diretamente na conta. Modelos como "pay-as-you-go" e reservas oferecem diferentes opções de custo.
+- Manutenção: A prática de monitorar e otimizar o uso dos recursos, como desligar máquinas subutilizadas ou reduzir o tamanho de instâncias, pode gerar economias significativas.
+- Área geográfica: O custo dos recursos varia de acordo com a região onde estão localizados.
+- Tráfego de rede: A transferência de dados entre regiões e a internet pode gerar custos adicionais, especialmente para grandes volumes de dados.
+- Assinatura: O tipo de assinatura (gratuita, paga, com acordos específicos) influencia os recursos disponíveis e os preços.
+
+---------------------------------------
+Azure Marketplace
+---------------------------------------
+- Catálogo de soluções: Oferece uma vasta gama de aplicativos e serviços de terceiros que podem ser integrados ao Azure.
+- Facilidade de provisionamento: Permite encontrar, experimentar e provisionar soluções de forma rápida e fácil.
+- Suporte: Os recursos adquiridos no Marketplace são suportados pelos respectivos fornecedores.
+
+---------------------------------------
+Calculando o Custo Total no Azure
+---------------------------------------
+- Calculadora de preços: Faz estimativa de custos nem sempre será o valor exato que será cobrado quando criar o recurso de fato, ao final gera um relatório.
+- Calculadora de custo total de propriedade (TCO): Caso a empresa queira ir para a nuvem, a ferramenta compara custos de infraestrutura local x nuvem, viabilizando economia de custos.
+- Gerenciamento de Custos do Azure: Monitorar, definir orçamento de gastos, colocar alertas de custo, recomendações de custo, Budget.
+
+---------------------------------------
+Marcas (Tags) no Azure
+---------------------------------------
+- Fornecem metadados aos recursos.
+- Organizam os recursos em uma taxonomia de maneira lógica.
+- Consiste em um par nome-valor.
+- Úteis para reunir informações de cobrança.
+- Facilitar a identificação na fatura, ajuda a filtrar na fatura.
+- Não é obrigatório, se não informado o Azure adiciona um nome padrão.
+- Não é herdável.
