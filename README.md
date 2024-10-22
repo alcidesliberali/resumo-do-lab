@@ -232,3 +232,25 @@ Portal de Confiança do Serviço
 - Objetivo: Fornecer informações sobre as práticas de segurança e privacidade da Microsoft.
 - Conteúdo: Documentação sobre as estratégias de segurança, conformidade e proteção de dados da Microsoft.
 - Utilidade: Auxilia na realização de auditorias e avaliações de segurança.
+
+---------------------------------------
+Ferramentas de Gerenciamento e Implantação Azure
+---------------------------------------
+
+Ferramentas:
+- Portal do Azure: Interface gráfica para interagir com os recursos do Azure de forma visual.
+- Azure Cloud Shell/Azure PowerShell: Ambientes de linha de comando para automatizar tarefas e scripts utilizando comandos do PowerShell.
+- Azure CLI: Interface de linha de comando para automatizar tarefas utilizando comandos Bash.
+- Azure Arc: Plataforma que permite gerenciar recursos em diferentes nuvens (como AWS e GCP) e ambientes locais, estendendo a gestão do Azure para além da sua própria nuvem.
+- ARM Templates: Arquivos JSON utilizados para definir e implantar recursos no Azure de forma declarativa e automatizada.
+- Azure Bicep: Linguagem mais recente da Microsoft para definir infraestrutura, oferecendo uma sintaxe mais concisa e intuitiva que o JSON.
+
+Conceitos:
+- Infraestrutura como código: Prática de definir e provisionar infraestrutura através de código, garantindo consistência e repetibilidade nas implantações.
+- Modelos ARM: Representam a infraestrutura como código no Azure, permitindo criar e gerenciar recursos de forma automatizada.
+
+Pontos-chave:
+- O Azure Cloud Shell exige uma conta de armazenamento na assinatura para funcionar.
+- O Azure Arc permite um gerenciamento unificado de recursos em diferentes ambientes, promovendo a multi-cloud.
+- Os modelos ARM são a base para a automação de implantações no Azure.
+- O Azure Bicep oferece uma alternativa mais moderna e intuitiva aos modelos ARM tradicionais.
